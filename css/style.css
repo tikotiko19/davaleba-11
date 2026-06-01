@@ -516,12 +516,19 @@ F O O T E R */
   display: flex;
   flex-direction: column;
   gap: 32px;
-    color: #191825BF;
-
+  color: #191825bf;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
 }
 
 .footer-column ul a {
-  color: #191825BF;
+  color: #191825bf;
+  font-size: 18px;
+  line-height: 160%;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
 }
 
 /* ==========================================================================
