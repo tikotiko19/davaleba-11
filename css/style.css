@@ -237,6 +237,7 @@
 .card {
   width: 373.33px;
   background-color: whitesmoke;
+  border-radius: 32px;
 }
 
 .card-img-wrapper {
@@ -258,6 +259,7 @@
   font-family: CircularStd;
   color: #191825;
   width: 228.33px;
+  height: 225px;
 }
 
 .price {
@@ -276,13 +278,17 @@
   font-weight: 400;
   line-height: 160%;
   font-family: CircularStd;
+  margin-bottom: 32px;
 }
 
 .rating {
   background-color: whitesmoke;
   width: 309.33px;
-  height: 89px;
   margin: 0 auto;
+}
+
+.star1, .star2, .star3 {
+  margin-bottom: 32px;
 }
 
 /* NEXT SECTION */
@@ -680,33 +686,39 @@ F O O T E R */
 
   /* next */
   .card-wraps {
+    max-width: 896px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 31px;
+    margin-top: 64px;
+    margin-bottom: 64px;
   }
 
   .card {
     display: flex;
     flex-direction: column;
-    width: 278px;
-    height: 575px;
+    width: 100%;
     text-align: left;
-    overflow: hidden;
-    border-radius: 32px;
+    height: auto;
+  
   }
 
   .card-img-wrapper {
     height: 314px;
-    width: 100%;
-    overflow: hidden;
+    width: 278px;
+
   }
 
   .card-img-wrapper img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+      
   }
 
   .img-info {
@@ -717,12 +729,14 @@ F O O T E R */
     padding: 32px 32px 0 32px;
     width: 100%;
     height: auto;
+   
   }
 
   .img-info h3 {
     order: 2;
     margin: 0 0 16px 0;
     width: 100%;
+    height: auto;
     text-align: left;
     display: block;
   }
@@ -730,7 +744,7 @@ F O O T E R */
   .price {
     order: 1;
     text-align: left;
-    margin: 0 0 8px 0;
+    margin: 0 0 8px 0; 
     display: block;
   }
 
@@ -741,11 +755,15 @@ F O O T E R */
     width: 100%;
     padding: 0 32px;
     height: auto;
+    border-bottom-left-radius:  32px;
+    border-bottom-right-radius: 32px;
+       
   }
 
   .location {
     margin: 0 0 32px 0;
     text-align: left;
+
   }
   .star1,
   .star2,
@@ -755,6 +773,8 @@ F O O T E R */
     width: 100%;
     display: block;
     height: auto;
+    padding-bottom: 32px;
+  
   }
 }
 
@@ -872,7 +892,6 @@ F O O T E R */
 
   .sub-titles h2 {
     font-size: 32px;
-  
   }
 
   .arrows {
