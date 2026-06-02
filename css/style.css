@@ -287,7 +287,9 @@
   margin: 0 auto;
 }
 
-.star1, .star2, .star3 {
+.star1,
+.star2,
+.star3 {
   margin-bottom: 32px;
 }
 
@@ -703,13 +705,11 @@ F O O T E R */
     width: 100%;
     text-align: left;
     height: auto;
-  
   }
 
   .card-img-wrapper {
     height: 314px;
     width: 278px;
-
   }
 
   .card-img-wrapper img {
@@ -718,7 +718,6 @@ F O O T E R */
     object-fit: cover;
     border-top-left-radius: 32px;
     border-top-right-radius: 32px;
-      
   }
 
   .img-info {
@@ -729,7 +728,6 @@ F O O T E R */
     padding: 32px 32px 0 32px;
     width: 100%;
     height: auto;
-   
   }
 
   .img-info h3 {
@@ -744,7 +742,7 @@ F O O T E R */
   .price {
     order: 1;
     text-align: left;
-    margin: 0 0 8px 0; 
+    margin: 0 0 8px 0;
     display: block;
   }
 
@@ -755,15 +753,13 @@ F O O T E R */
     width: 100%;
     padding: 0 32px;
     height: auto;
-    border-bottom-left-radius:  32px;
+    border-bottom-left-radius: 32px;
     border-bottom-right-radius: 32px;
-       
   }
 
   .location {
     margin: 0 0 32px 0;
     text-align: left;
-
   }
   .star1,
   .star2,
@@ -774,8 +770,81 @@ F O O T E R */
     display: block;
     height: auto;
     padding-bottom: 32px;
-  
   }
+
+  /* NEXT travel point*/
+  .travel-point {
+    width: 100%;
+    max-width: 896px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+
+  .tp-image-container {
+    padding-top: 64px;
+    margin-bottom: 64px;
+  }
+
+  .tp-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .tp-content {
+    text-align: center;
+
+  }
+
+  .div-tp-content {
+  
+
+  }
+
+  .tp-sub-title {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: CircularStd;
+    letter-spacing: 20%;
+  }
+
+  .div-tp-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: CircularStd;
+    max-width: 832px;
+    width: 100%;
+  }
+
+  .content-descr {
+    max-width: 832px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+  /*  */
+
+  .boxes {
+    max-width: 400px;
+    height: 151px;
+    /* max-width: 832px; */
+
+  }
+
+  .value {
+    width: 100%;
+    height: auto;
+  }
+
+  .box2 {
+    width: 100%;
+    height: auto;
+  }
+
 }
 
 /* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */
