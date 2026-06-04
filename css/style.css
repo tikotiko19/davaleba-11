@@ -78,7 +78,8 @@
 /* NEXT SECTION */
 
 .travel {
-  width: 1184px;
+  max-width: 1184px;
+  width: 90%;
   display: flex;
   padding: 64px 0;
   margin: 0 auto;
@@ -168,7 +169,8 @@
 
 .destinations {
   margin: 0 auto;
-  width: 1184px;
+  max-width: 1184px;
+  width: 90%;
 }
 
 .section-header {
@@ -301,6 +303,7 @@
   display: flex;
   justify-content: center;
   width: 1312px;
+  padding: ;
 }
 
 .tp-content-container {
@@ -428,7 +431,8 @@
 KEY FEATURES*/
 
 .key-features {
-  width: 1312px;
+  max-width: 1312px;
+  width: 90%;
   margin-top: 73px;
   margin: 0 auto;
 }
@@ -466,6 +470,7 @@ KEY FEATURES*/
   font-family: "Inter", sans-serif;
   width: 980px;
 }
+/*  */
 
 .features-list {
   width: 1312px;
@@ -480,10 +485,32 @@ KEY FEATURES*/
   column-gap: 32px;
 }
 
-.feature-item img {
+.feature-1, .feature-2, .feature-3 {
+  color: white;
+  width: 48px;
+  height: 48px;
+}
+
+
+
+.icon-box-css {
   width: 100px;
   height: 100px;
+  background-color: #ff5722;
+  border-radius: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.css2 {
+  background-color: #FACD49;
+}
+
+.css3 {
+  background-color: #F85E9F;
+}
+
 
 .item-divs h3 {
   color: #191825;
@@ -491,6 +518,7 @@ KEY FEATURES*/
   font-weight: 700;
   line-height: 120%;
   font-family: CircularStd;
+  margin-bottom: 8px;
 }
 
 .item-divs p {
@@ -507,7 +535,8 @@ KEY FEATURES*/
 F O O T E R */
 
 .footer {
-  width: 1184px;
+  max-width: 1184px;
+  width: 90%;
   display: flex;
   margin: 0 auto;
   margin-top: 99px;
@@ -539,11 +568,22 @@ F O O T E R */
 .socmedia {
   width: 32px;
   height: 32px;
+  background-color: #5d50c6;
+  border-radius: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 .social-links {
   width: 160px;
   display: flex;
   gap: 32px;
+}
+
+.facebook,
+.twitter,
+.instagram {
+  color: white;
 }
 
 .footer-navigation {
@@ -593,487 +633,3 @@ F O O T E R */
 /* ==========================================================================
    RESPONSIVE
    ========================================================================== */
-@media (min-width: 1440px) {
-  .menu-bar {
-    display: none;
-  }
-}
-
-@media (max-width: 1440px) {
-  .menu-bar {
-    width: 100%;
-    display: none;
-  }
-}
-/* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */
-/* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */
-
-@media (max-width: 1024px) {
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .navigation-links {
-    display: none;
-  }
-  .menu-bar {
-    display: block;
-    order: 1;
-    max-width: 48px;
-  }
-
-  .logo {
-    order: 2;
-    width: 100%;
-    display: flex;
-    margin: 0 auto !important;
-    justify-content: center;
-  }
-
-  .header-buttons {
-    order: 3;
-    justify-content: flex-end;
-  }
-
-  .login-but {
-    white-space: nowrap;
-  }
-
-  /* next */
-
-  .travel {
-    width: 90%;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-  }
-
-  .travel-image-container {
-    order: 1;
-    width: 100%;
-    max-width: 772px;
-    height: auto;
-  }
-  .travel-content {
-    order: 2;
-    max-width: 600px;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 64px;
-  }
-
-  .travel-content h1 {
-    font-family: CircularStd;
-    font-size: 56px;
-    line-height: 120%;
-    font-weight: 700;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .travel-content p {
-    max-width: 445px;
-    width: 100%;
-    margin-top: 45px;
-  }
-
-  .travel-content p:last-of-type {
-    margin-top: 0;
-  }
-
-  /* NEXT */
-
-  .destinations {
-    width: 100%;
-    max-width: 896px;
-    margin: 0 auto;
-  }
-
-  .section-header {
-    display: flex;
-    flex-direction: column;
-    margin-top: 223.62px;
-    max-width: 896px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .sub-titles {
-    max-width: 896px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .sub-title {
-    width: auto;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-  }
-
-  .sub-titles h2 {
-    font-size: 40px;
-    width: auto;
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: 16px;
-    margin-bottom: 64px;
-  }
-
-  .arrows {
-    justify-content: center;
-    width: 100%;
-  }
-
-  /* next */
-  .card-wraps {
-    max-width: 896px;
-    height: auto;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 31px;
-    margin-top: 64px;
-    margin-bottom: 64px;
-  }
-
-  .card {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    text-align: left;
-    height: auto;
-  }
-
-  .card-img-wrapper {
-    height: 314px;
-    width: 278px;
-  }
-
-  .card-img-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-top-left-radius: 32px;
-    border-top-right-radius: 32px;
-  }
-
-  .img-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 32px 32px 0 32px;
-    width: 100%;
-    height: auto;
-  }
-
-  .img-info h3 {
-    order: 2;
-    margin: 0 0 16px 0;
-    width: 100%;
-    height: auto;
-    text-align: left;
-    display: block;
-  }
-
-  .price {
-    order: 1;
-    text-align: left;
-    margin: 0 0 8px 0;
-    display: block;
-  }
-
-  .rating {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    padding: 0 32px;
-    height: auto;
-    border-bottom-left-radius: 32px;
-    border-bottom-right-radius: 32px;
-  }
-
-  .location {
-    margin: 0 0 32px 0;
-    text-align: left;
-  }
-  .star1,
-  .star2,
-  .star3 {
-    margin: 0;
-    max-width: 66px;
-    width: 100%;
-    display: block;
-    height: auto;
-    padding-bottom: 32px;
-  }
-
-  /* NEXT travel point*/
-
-  .travel-wraper {
-    display: flex;
-    flex-direction: column;
-    max-width: 1024px;
-    width: 100%;
-  }
-
-  .tp-image-container {
-    padding-top: 64px;
-    margin-bottom: 64px;
-  }
-
-  .tp-image {
-    width: 100%;
-  }
-  /*  */
-
-  .tp-content-container {
-    max-width: 832px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .div-tp-content {
-    max-width: 832px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .tp-sub-title {
-    font-size: 23px;
-    font-weight: 700;
-    line-height: 120%;
-    font-family: CircularStd;
-    letter-spacing: 20%;
-  }
-
-  .div-tp-content h2 {
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 120%;
-    font-family: CircularStd;
-    max-width: 832px;
-    width: 100%;
-    text-align: center;
-  }
-
-  .content-descr {
-    width: 99%;
-  }
-
-  /*  */
-
-  .boxes {
-    width: 832px;
-    display: flex;
-  }
-
-  .row1,
-  .row2 {
-    display: flex;
-    width: 832px;
-  }
-
-  .value {
-    width: 400px;
-  }
-
-  .box2 {
-    width: 400px;
-  }
-}
-
-/* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */
-/* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */
-
-@media (max-width: 430px) {
-  .navigation-links,
-  .header-buttons {
-    display: none;
-  }
-
-  .logo {
-    order: 1;
-    display: block;
-  }
-
-  .menu-bar {
-    display: block;
-    order: 2;
-  }
-
-  .logo-icon,
-  .logo-text {
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 16px;
-  }
-
-  /* NEXT */
-
-  /* .travel {
-    width: 90%;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin: 0 auto;
-  } */
-
-  .travel-image-container {
-    /* order: 1;
-    width: 100%; */
-    max-width: 396.29px;
-    height: auto;
-  }
-  .travel-content {
-    order: 2;
-    max-width: 398px;
-    width: 100%;
-    height: auto;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
-    margin-top: 32px;
-  }
-
-  .travel-content h1 {
-    font-family: CircularStd;
-    font-size: 40px;
-    line-height: 120%;
-    font-weight: 700;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-  }
-
-  .travel-content p {
-    max-width: 398px;
-    width: 100%;
-    font-size: 16px;
-    margin-top: 24px;
-  }
-
-  .travel-content p:last-of-type {
-    margin-top: 0;
-  }
-
-  .clicks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 398px;
-  }
-
-  .get-started {
-    width: 100%;
-    height: 65px;
-  }
-
-  .logo-play-div {
-    margin-top: 24px;
-    width: 100%;
-    height: 72px;
-  }
-
-  /* NEXT */
-
-  .destinations {
-    max-width: 398px;
-    width: 100%;
-    margin: 0 auto;
-    padding: 32px 0;
-  }
-  /* NEXT */
-
-  .sub-titles {
-    max-width: 398px;
-    width: 100%;
-  }
-
-  .sub-title {
-    font-size: 16px;
-    width: auto;
-  }
-
-  .sub-titles h2 {
-    font-size: 32px;
-  }
-
-  .arrows {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 398px;
-  }
-
-  .white-left-circle,
-  .black-circle {
-    width: 64px;
-    height: 64px;
-  }
-
-  .left-arrow,
-  .right-arrow {
-    width: 15.5px;
-    height: 15.5px;
-  }
-
-  .card-wraps {
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-  }
-
-  .card {
-    width: 398px;
-    height: 575px;
-  }
-
-  .card-img-wrapper {
-    height: 314px;
-    width: 100%;
-  }
-
-  .card-img-wrapper img {
-    width: 100%;
-    height: 100%;
-  }
-
-  .img-info {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .img-info h3 {
-    order: 2;
-    margin: 0 0 16px 0;
-    width: 100%;
-    text-align: left;
-    display: block;
-  }
-}
