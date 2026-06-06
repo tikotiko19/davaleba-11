@@ -264,6 +264,7 @@
     line-height: 120%;
     font-family: CircularStd;
     letter-spacing: 20%;
+    text-align: center;
   }
 
   .div-tp-content h2 {
@@ -280,7 +281,7 @@
   .content-descr {
     max-width: 832px;
     width: 100%;
-    margin-bottom: 0;
+    text-align: center;
   }
 
   /*  */
@@ -300,11 +301,15 @@
   .value {
     max-width: 400px;
     width: 100%;
+    min-height: 151px;
+    height: auto;
   }
 
   .box2 {
     max-width: 400px;
     width: 100%;
+    min-height: 151px;
+    height: auto;
   }
 
   /* next section */
@@ -580,7 +585,7 @@
   }
 
   .content-descr {
-    width: 99%;
+    width: 90%;
     font-size: 16px;
   }
 
@@ -595,6 +600,8 @@
   .box2 {
     width: 100%;
     max-width: 340px;
+    min-height: 151px;
+    height: auto;
   }
 
   /* NEXT - KEY FEATURES */
