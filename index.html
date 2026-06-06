@@ -42,13 +42,20 @@
   </head>
 
   <body>
-    <header class="header">
+    <header>
+
+    <div class="header"> 
+      <!-- parent -->
+
       <div class="logo">
+        <!-- Header - child -->
         <img class="logo-icon" src="./images/vector-logo.svg" alt="logo-icon" />
         <span class="logo-text">Travlog</span>
       </div>
 
+
       <nav class="navigation-links">
+        <!-- Header - child -->
         <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">Discover</a></li>
@@ -58,18 +65,34 @@
       </nav>
 
       <div class="header-buttons">
+      <!-- Header - child -->
         <a class="login-but" href="#">Log In</a>
         <a class="signup-but" href="#">Sign Up</a>
       </div>
 
+
+    <!-- Header - child -->
       <img class="menu-bar" src="./images/menu-vector.svg" alt="Open Menu" />
+
+    </div>
     </header>
+
+
 
     <!-- NEXT -->
 
+
+
     <main>
+
+
+
       <section class="travel">
+        <!-- parent  = text + image-->
+
+
         <div class="travel-content">
+          <!-- child of TRAVEL -->
           <h1>
             Travel <span class="highlight">top destination</span> of the world
           </h1>
@@ -77,8 +100,9 @@
           <p>as many choices as possible.</p>
 
           <div class="clicks">
+            <!-- CHILD of TRAVEL CONTENT .. -->
+             <!-- PARENT to a + logo-play-div -->
             <a class="get-started" href="#">Get Started</a>
-
             <div class="logo-play-div">
               <img
                 class="play-logo"
@@ -89,22 +113,32 @@
             </div>
           </div>
         </div>
+        <!-- travel content div end here -->
 
         <div class="travel-image-container">
+          <!-- child of TRAVEL -->
           <img class="world-map" src="./images/Group1.png" alt="world-map" />
+        <!-- travel-image-containers CHILD -->
         </div>
       </section>
 
       <!-- NEXT -->
 
+
+      
       <section class="destinations">
+        <!-- MAIN PARENT -->
+
         <div class="section-header">
+          <!-- child of DESTINATIONS...has own 1 childrren -->
           <div class="sub-titles">
+            <!-- child of section header -->
             <span class="sub-title">TOP DESTINATION</span>
             <h2>Explore top destination</h2>
           </div>
 
           <div class="arrows">
+            <!-- child of section header... -->
             <span class="white-left-circle">
               <img
                 class="left-arrow"
@@ -121,6 +155,12 @@
         </div>
 
         <div class="card-wraps">
+          <!-- child of DESTINATIONS ..has own 3 children 3-card boxes-->
+          
+          
+          <!-- Note for responsive design: 
+           Each .card is a parent to its own image box,
+            text info block, and rating row. -->
           <div class="card">
             <div class="card-img-wrapper">
               <img src="./images/Rectangle6.jpg" alt="paradise-beach" />
@@ -172,27 +212,41 @@
       <!-- NEW SECTION - TRAVEL POINT  -->
 
       <section class="travel-point">
+
         <div class="travel-wraper">
-          <div class="tp-image-container">
+          <!-- MAIN PARENT
+           has 2 childrem:
+           .tp-image-container
+           .tp-content-container -->
+            <div class="tp-image-container">
             <img
               src="./images/Group9238.png"
               alt="travel-girl"
               class="tp-image"
             />
-          </div>
+            </div>
 
-          <div class="tp-content-container">
-            <div class="div-tp-content">
-              <span class="tp-sub-title">TRAVEL POINT</span>
-              <h2>We helping you find your dream location</h2>
-              <p class="content-descr">
+
+            <div class="tp-content-container">
+              <!-- parent of 2 
+               .div-tp-content
+               .boxes -->
+                 <div class="div-tp-content">
+                  <!-- child of 
+                   .tp-content-container -->
+                   <span class="tp-sub-title">TRAVEL POINT</span>
+                  <h2>We helping you find your dream location</h2>
+                   <p class="content-descr">
                 Contrary to popular belief, Lorem Ipsum is not simply random
                 text. It has roots in a piece of classical Latin literature from
                 45 BC.
-              </p>
-            </div>
+                   </p>
+              </div>
 
             <div class="boxes">
+               <!-- child of 
+                   .tp-content-container -->
+              <!-- PARENT of .ROW1 and .ROW2 -->
               <div class="row1">
                 <div class="value">
                   <h3>500+</h3>
@@ -218,20 +272,32 @@
           </div>
         </div>
       </section>
+
+
       <!-- NEXT -->
+       <!-- next -->
 
       <section class="key-features">
+        <!-- DIRECT PARENT ..has 2 children:
+         .feature-content
+         .features-list -->
         <div class="feature-content">
           <span class="features-sub-title">KEY FEATURES</span>
           <h2>We offer best services</h2>
           <p class="features-descr">
             Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC.
+            It has roots in a piece of classical Latin literature <br> from 45 BC.
           </p>
         </div>
 
         <div class="features-list">
+          <!-- parent to 
+           .feature-item BOXES -->
+
           <div class="feature-item">
+            <!-- parent to 
+             .icon-box-css 
+             .item-divs -->
             <div class="icon-box-css">
             <img
               src="./images/siste-1location2.svg"
@@ -240,7 +306,6 @@
             />
             </div>
 
-
             <div class="item-divs">
               <h3>We offer best services</h3>
               <p>Lorem Ipsum is not simply random text</p>
@@ -248,6 +313,9 @@
           </div>
 
           <div class="feature-item">
+            <!-- parent to 
+             .icon-box-css 
+             .item-divs -->
             <div class="icon-box-css css2">
             <img
               src="./images/siste-2Vector.svg"
@@ -263,6 +331,9 @@
           </div>
 
           <div class="feature-item">
+            <!-- parent to 
+             .icon-box-css 
+             .item-divs -->
             <div class="icon-box-css css3">
             <img
               src="./images/siste-3-Vector(1).svg"
@@ -280,9 +351,23 @@
       </section>
     </main>
 
+
+<!-- NEXT NEXT NEXT NEXT  -->
+
     <footer class="footer">
+      <!-- main PARENT...has 2 children:
+       .footer-brand
+       .footer-navigation  -->
+
       <div class="footer-brand">
+        <!-- PARENT ...children are:
+         .brand-logo
+         .footer-descr
+         .social-links -->
         <div class="brand-logo">
+          <!-- has 2 children :
+           .logo-icon (<img>) 
+            .logo-text (<span>) -->
           <img
             class="logo-icon"
             src="./images/vector-logo.svg"
@@ -292,11 +377,14 @@
         </div>
 
         <p class="footer-descr">
+          <!-- child of FOOTER BRAND -->
           Contrary to popular belief, Lorem Ipsum is not simply random text. It
           has roots in a piece of classical Latin literature from 45 BC.
         </p>
 
         <div class="social-links">
+        <!-- child of FOOTER BRAND ..has 3 children:
+         .socmedia x 3 -->
           <div class="socmedia">
             <i class="fa-brands fa-facebook-f facebook"></i>
           </div>
@@ -309,7 +397,11 @@
         </div>
       </div>
 
+
       <div class="footer-navigation">
+        <!-- DIRECT PARENT.. 3 children:
+         .footer-column x 3
+         (Company)(Contact) (Meet Us) -->
         <div class="footer-column">
           <h3>Company</h3>
           <ul>

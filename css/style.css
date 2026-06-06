@@ -23,14 +23,24 @@
   font-weight: 900;
 }
 
+.navigation-links {
+  max-width: 428px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .nav-links {
+  max-width: 428px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
   display: flex;
   font-family: CircularStd;
   font-weight: 700;
   font-size: 14px;
   color: #19182580 !important;
-  width: 428px;
-  justify-content: space-between;
+  
 }
 
 .nav-links a {
@@ -42,6 +52,8 @@
 }
 
 .header-buttons {
+  max-width: 220px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,14 +99,14 @@
 
 .travel-content {
   width: 412px;
-  height: 478px;
+  height: auto;
 }
 
 .travel-content h1 {
   font-size: 80px;
   font-weight: 400;
   font-family: "Abel", sans-serif;
-  width: 412px;
+  width: 100%;
   margin-bottom: 43px;
 }
 .highlight {
@@ -108,6 +120,22 @@
   font-weight: 400;
   font-family: "Inter", sans-serif;
 }
+
+
+.travel-image-container {
+  max-width: 772px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.world-map {
+  width: 100%;
+}
+
+
 
 .clicks {
   margin-top: 43px;
@@ -152,17 +180,7 @@
   font-family: CircularStd;
 }
 
-.travel-image-container {
-  width: 772px;
-  height: 287.38;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.world-map {
-  width: 100%;
-}
 
 /* NEXT SECTION */
 /* NEXT SECTION */
@@ -174,13 +192,14 @@
 }
 
 .section-header {
-  width: 1184px;
+  width: 100%;
   display: flex;
   margin-top: 197px;
 }
 
 .sub-titles {
-  width: 952px;
+  max-width: 952px;
+  width: 100%;
 }
 
 .sub-title {
@@ -231,23 +250,31 @@
 .card-wraps {
   margin-top: 64px;
   margin-bottom: 64px;
-  width: 1184px;
+  max-width: 1184px;
+  width: 100%;
   display: flex;
   gap: 32px;
 }
 
 .card {
-  width: 373.33px;
+  max-width: 373.33px;
+  width: 100%;
   background-color: whitesmoke;
   border-radius: 32px;
 }
 
 .card-img-wrapper {
   border-top-right-radius: 32px;
+  width: 100%;
+}
+.card-img-wrapper img {
+  width: 100%;
+  height: auto;
 }
 
 .img-info {
-  width: 309.33px;
+  max-width: 309.33px;
+  width: 100%;
   height: 101px;
   padding: 32px 0;
   margin: 0 auto;
@@ -299,11 +326,15 @@
 /* NEXT SECTION */
 /* NEXT SECTION */
 
+.travel-point {
+  max-width: 1312px;
+  width: 90%;
+}
+
 .travel-wraper {
   display: flex;
   justify-content: center;
-  width: 1312px;
-  padding: ;
+  width: 100%;
 }
 
 .tp-content-container {
@@ -311,8 +342,9 @@
 }
 
 .tp-image-container {
-  width: 871px;
-  height: 697px;
+  max-width: 871px;
+  width: 100%;
+  height: auto;
   padding: 64px 0;
 }
 
@@ -321,7 +353,8 @@
 }
 
 .div-tp-content {
-  width: 441px;
+  max-width: 441px;
+  width: 100%;
   margin-bottom: 64px;
   display: flex;
   flex-direction: column;
@@ -346,11 +379,13 @@
   line-height: 120%;
   font-family: "Abel", sans-serif;
   margin-bottom: 32px;
-  width: 441px;
+  max-width: 441px;
+  width: 100%;
 }
 
 .content-descr {
-  width: 441px;
+  max-width: 441px;
+  width: 100%;
   font-size: 18px;
   font-weight: 400;
   line-height: 160%;
@@ -361,7 +396,8 @@
 .boxes {
   display: flex;
   flex-direction: column;
-  width: 441px;
+  max-width: 441px;
+  width: 100%;
 }
 
 .row1,
@@ -439,7 +475,7 @@ KEY FEATURES*/
 
 .feature-content {
   padding: 64px 0;
-  width: 1312px;
+  width: 100%;
 }
 
 .features-sub-title {
@@ -468,12 +504,12 @@ KEY FEATURES*/
   line-height: 160%;
   font-weight: 400;
   font-family: "Inter", sans-serif;
-  width: 980px;
+  width: 100%;
 }
 /*  */
 
 .features-list {
-  width: 1312px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -543,7 +579,8 @@ F O O T E R */
 }
 
 .footer-brand {
-  width: 540px;
+  max-width: 540px;
+  width: 100%;
   padding-top: 64px;
   padding-bottom: 91px;
 }
@@ -587,7 +624,8 @@ F O O T E R */
 }
 
 .footer-navigation {
-  width: 560px;
+  max-width: 560px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   /* gap: 32px; */
@@ -597,7 +635,8 @@ F O O T E R */
 }
 
 .footer-column {
-  width: 165.33px;
+  max-width: 165.33px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 32px;
