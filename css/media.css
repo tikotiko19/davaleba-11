@@ -17,7 +17,7 @@
 
 @media (max-width: 1024px) {
   .header {
-   width: 90%;
+    width: 90%;
   }
 
   .navigation-links {
@@ -232,8 +232,8 @@
     padding-top: 64px;
     margin-bottom: 64px;
     max-width: 871px;
-  width: 100%;
-  height: auto;
+    width: 100%;
+    height: auto;
   }
 
   .tp-image {
@@ -278,7 +278,7 @@
   }
 
   .content-descr {
-   max-width: 832px;
+    max-width: 832px;
     width: 100%;
     margin-bottom: 0;
   }
@@ -286,7 +286,7 @@
   /*  */
 
   .boxes {
-       max-width: 832px;
+    max-width: 832px;
     width: 100%;
     display: flex;
   }
@@ -331,8 +331,8 @@
 
   .features-descr {
     text-align: center;
-      width: 95%;
-    }
+    width: 95%;
+  }
   /*  */
   .features-list {
     width: 100%;
@@ -344,23 +344,21 @@
   }
 
   /* FOOTER SECTION */
-.footer {
+  .footer {
     flex-direction: column;
-}
+  }
 
-.footer-brand {
+  .footer-brand {
     max-width: 897px;
     width: 100%;
     padding: 64px 0 0 0;
-    margin-left: 64px;
-
-}
-.footer-navigation {
+    margin-left: 0;
+  }
+  .footer-navigation {
     max-width: 897px;
     width: 100%;
-
-}
-
+    margin-left: 0;
+  }
 }
 
 /* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */ /* NEXT */
@@ -375,8 +373,7 @@
   .header {
     width: 90%;
     display: flex;
-    justify-content: space-between; 
-
+    justify-content: space-between;
   }
 
   .logo {
@@ -403,8 +400,6 @@
 
   /* NEXT */
 
-
-
   .travel-image-container {
     max-width: 396.29px;
     width: 100%;
@@ -415,9 +410,6 @@
     max-width: 398px;
     width: 100%;
     height: auto;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center; */
     margin-top: 32px;
   }
 
@@ -511,7 +503,7 @@
   .card {
     max-width: 398px;
     width: 100%;
-    height: 575px;
+    height: auto;
   }
 
   .card-img-wrapper {
@@ -545,7 +537,7 @@
   .travel-wraper {
     max-width: 398px;
     width: 90%;
-    margin: 0 16px;
+    margin: 0 auto;
   }
 
   .tp-image-container {
@@ -599,13 +591,11 @@
     width: 100%;
   }
 
-  .value
+  .value,
   .box2 {
-    width: 100%; 
+    width: 100%;
     max-width: 340px;
   }
-
-  
 
   /* NEXT - KEY FEATURES */
 
@@ -669,13 +659,15 @@
   .footer-brand {
     max-width: 398px;
     width: 100%;
-    margin-left: 16px;
+    margin-left: 0;
+    padding-left: 16px;
   }
 
   .footer-navigation {
     max-width: 398px;
     width: 100%;
-    margin-left: 16px;
+    margin-left: 0;
+    padding-left: 16px;
     flex-direction: column;
   }
 
@@ -686,5 +678,4 @@
   .footer-column h3 {
     margin-bottom: 64px;
   }
-
 }

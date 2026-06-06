@@ -98,7 +98,8 @@
 }
 
 .travel-content {
-  width: 412px;
+  width: 100%;
+  max-width: 412px;
   height: auto;
 }
 
@@ -139,7 +140,8 @@
 
 .clicks {
   margin-top: 43px;
-  width: 338px;
+  max-width: 338px;
+  width: 100%;
   display: flex;
   gap: 16px;
 }
@@ -250,7 +252,6 @@
 .card-wraps {
   margin-top: 64px;
   margin-bottom: 64px;
-  max-width: 1184px;
   width: 100%;
   display: flex;
   gap: 32px;
@@ -275,7 +276,8 @@
 .img-info {
   max-width: 309.33px;
   width: 100%;
-  height: 101px;
+  min-height: 101px;
+  height: auto;
   padding: 32px 0;
   margin: 0 auto;
   display: flex;
@@ -287,8 +289,7 @@
   line-height: 120%;
   font-family: CircularStd;
   color: #191825;
-  width: 228.33px;
-  height: 225px;
+  width: 100%;
 }
 
 .price {
@@ -312,7 +313,7 @@
 
 .rating {
   background-color: whitesmoke;
-  width: 309.33px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -329,6 +330,7 @@
 .travel-point {
   max-width: 1312px;
   width: 90%;
+  margin: 0 auto;
 }
 
 .travel-wraper {
@@ -338,7 +340,8 @@
 }
 
 .tp-content-container {
-  width: 441px;
+  max-width: 441px;
+  width: 100%;
 }
 
 .tp-image-container {
@@ -396,7 +399,6 @@
 .boxes {
   display: flex;
   flex-direction: column;
-  max-width: 441px;
   width: 100%;
 }
 
@@ -404,11 +406,11 @@
 .row2 {
   display: flex;
   column-gap: 32px;
+  width: 100%;
 }
 
 .value {
-  width: 204.5px;
-  height: 151px;
+  width: 100%;
   margin-bottom: 32px;
   border: 1px solid #1918251a;
   border-radius: 32px;
@@ -435,8 +437,7 @@
 }
 
 .box2 {
-  width: 204.5px;
-  height: 151px;
+  width: 100%;
   border: 1px solid #1918251a;
   border-radius: 32px;
   display: flex;
