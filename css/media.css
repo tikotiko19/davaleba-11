@@ -139,7 +139,7 @@
 
   /* next */
   .card-wraps {
-    max-width: 896px;
+    max-width: 100%;
     width: 100%;
     gap: 31px;
     margin-top: 64px;
@@ -149,7 +149,6 @@
   .card {
     display: flex;
     flex-direction: column;
-    max-width: 278px;
     width: 100%;
     text-align: left;
     height: auto;
