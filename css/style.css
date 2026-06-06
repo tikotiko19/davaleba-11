@@ -248,6 +248,7 @@
   align-items: center;
   display: flex;
 }
+/*  */
 
 .card-wraps {
   margin-top: 64px;
@@ -258,6 +259,7 @@
 }
 
 .card {
+  max-width: 373.33px;
   width: 100%;
   background-color: whitesmoke;
   border-radius: 32px;
@@ -267,9 +269,11 @@
   border-top-right-radius: 32px;
   width: 100%;
 }
-.card-img-wrapper img {
+.card-img-class {
   width: 100%;
+  min-height: 350px;
   height: auto;
+  object-fit: cover;
 }
 
 .img-info {
